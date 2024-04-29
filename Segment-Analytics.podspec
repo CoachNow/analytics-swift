@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = "Analytics-Swift"
+  s.name             = "Segment-Analytics"
+  s.module_name      = "Segment"
   s.version          = "1.5.11"
   s.summary          = "Main library."
 
@@ -21,6 +22,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/Segment/**/*'
   s.static_framework = true
 
-  s.dependency 'JSONSafeEncoding'
+  s.dependency 'JSONSafeEncoding-Swift'
   s.dependency 'Sovran'
 end
