@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name             = "Segment-Swift"
+  s.name             = "Analytics-Swift"
   s.version          = "1.5.11"
-  s.summary          = "Main libraru."
+  s.summary          = "Main library."
 
   s.description      = <<-DESC
                        Analytics for iOS provides a single API that lets you
