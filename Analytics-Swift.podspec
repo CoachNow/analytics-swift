@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/CoachNow/analytics-swift.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/segment'
 
-  s.swift_version = '4.0'
-  s.platform     = :ios, '11.0'
+  s.swift_version = '5.0'
+  s.platform     = :ios, '13.0'
   s.requires_arc = true
 
   s.source_files = 'Sources/Segment/**/*'
