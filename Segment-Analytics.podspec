@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/Segment/**/*'
   s.static_framework = true
 
-  s.dependency 'JSONSafeEncoding-Swift'
+  s.dependency 'JSONSafeEncoding'
   s.dependency 'Sovran'
 end
