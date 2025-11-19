@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "SegmentAnalytics"
   s.module_name      = "Segment"
-  s.version          = "1.5.11"
+  s.version          = "1.9.1"
   s.summary          = "Main library."
 
   s.description      = <<-DESC
